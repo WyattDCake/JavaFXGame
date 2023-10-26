@@ -1,0 +1,39 @@
+
+/*
+Color Pallet
+--ultra-violet: #575f8dff;
+--blueish purple: #7b78b1ff;
+--purplish blue : #5c79afff;
+--blue blue: #3d79acff;
+--peach like: #d28aa9ff;
+--almost pink: #c378b5ff;
+*/
+.button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #575f8dff;
+}
+.button:hover{
+    -fx-background-color:rgb(160, 159, 159);
+}
+.label{
+    -fx-text-fill:rgb(28, 30, 44);
+    -fx-font-weight: bold;
+}
+.list-view{
+    -fx-border-color:#575f8dff;
+    -fx-border-width: 5px;
+    -fx-focus-color:transparent;
+    -fx-background-color:#575f8dff
+}
+
+.list-cell{
+    -fx-border-color:#575f8dff;
+    -fx-border-width: 2px;
+    -fx-background-color: #c378b5ff;
+    -fx-text-fill: #575f8dff;
+    -fx-font-weight:bold;
+    -fx-font-size:28px;
+}
+.list-cell:hover{
+    -fx-background-color:#d28aa9ff;
+}
