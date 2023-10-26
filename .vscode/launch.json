@@ -6,17 +6,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ChickyClicker_d4570510",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-21/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
         },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "ChickyClicker_dcea2a9",
-            "vmArgs": "--module-path \"C:/Java/javafx-sdk-21/lib\" --add-modules javafx.controls,javafx.fxml"
-        }
     ]
 }
